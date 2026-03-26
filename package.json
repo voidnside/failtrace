@@ -1,0 +1,12 @@
+{
+  "name": "failtrace",
+  "version": "1.0.0",
+  "description": "API failure simulation — timeouts, auth errors, 500s, rate limits with structured logging",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
